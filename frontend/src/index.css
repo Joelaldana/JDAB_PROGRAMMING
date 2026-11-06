@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background:#070A13; color:#F3F4F6; font-family:'Inter',system-ui,sans-serif; margin:0; overflow-x:hidden; }
+
+@layer utilities {
+  .font-display { font-family:'Fredoka','Inter',sans-serif; letter-spacing:.01em; }
+  .bg-grid-cyber {
+    background-size:40px 40px;
+    background-image:linear-gradient(to right,rgba(99,102,241,.07) 1px,transparent 1px),linear-gradient(to bottom,rgba(99,102,241,.07) 1px,transparent 1px);
+  }
+  .glass { background:rgba(15,23,42,.72); backdrop-filter:blur(14px); border:1px solid rgba(99,102,241,.22); }
+  .card-3d { box-shadow:0 6px 0 rgba(0,0,0,.35), 0 18px 40px rgba(0,0,0,.35); }
+  .btn-3d { box-shadow:0 4px 0 var(--btn-edge,#312e81); transition:transform .08s, box-shadow .08s; }
+  .btn-3d:hover { filter:brightness(1.08); }
+  .btn-3d:active { transform:translateY(3px); box-shadow:0 1px 0 var(--btn-edge,#312e81); }
+  .scroll-thin::-webkit-scrollbar { width:6px; height:6px; }
+  .scroll-thin::-webkit-scrollbar-thumb { background:#312e81; border-radius:9px; }
+}
+
+/* Animaciones del juego */
+@keyframes floatSlow { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-12px) rotate(.5deg)} }
+@keyframes floatMedium { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-16px) rotate(-.5deg)} }
+@keyframes floatFast { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-10px) rotate(.8deg)} }
+.animate-float-1{animation:floatSlow 5s ease-in-out infinite}
+.animate-float-2{animation:floatMedium 6s ease-in-out infinite}
+.animate-float-3{animation:floatFast 4.5s ease-in-out infinite}
+
+@keyframes idleBob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+.idle-bob{animation:idleBob 3.2s ease-in-out infinite}
+@keyframes petHover { 0%,100%{transform:translateY(0) scale(1,1)} 50%{transform:translateY(-10px) scale(1.02,.98)} }
+.pet-hover{animation:petHover 3.4s ease-in-out infinite}
+@keyframes flicker { 0%,100%{transform:scaleY(1) scaleX(1)} 30%{transform:scaleY(1.05) scaleX(.97)} 60%{transform:scaleY(.97) scaleX(1.03)} }
+.flicker{animation:flicker 1.6s ease-in-out infinite; transform-box:fill-box; transform-origin:50% 100%}
+@keyframes blink { 0%,92%,100%{transform:scaleY(1)} 95%{transform:scaleY(.08)} }
+.blink{animation:blink 4.5s infinite; transform-box:fill-box; transform-origin:center}
+@keyframes ember { 0%{transform:translateY(0);opacity:0} 15%{opacity:1} 100%{transform:translateY(-70px);opacity:0} }
+.ember{animation:ember 2.6s ease-in infinite}
+@keyframes wingFlap { 0%,100%{transform:rotate(0)} 50%{transform:rotate(-9deg)} }
+.wing-l{animation:wingFlap 1.4s ease-in-out infinite; transform-box:fill-box; transform-origin:100% 80%}
+.wing-r{animation:wingFlap 1.4s ease-in-out infinite reverse; transform-box:fill-box; transform-origin:0% 80%}
+@keyframes spinSlow { to{transform:rotate(360deg)} }
+.spin-slow{animation:spinSlow 12s linear infinite; transform-box:fill-box; transform-origin:center}
+@keyframes popIn { 0%{transform:scale(.6);opacity:0} 70%{transform:scale(1.06)} 100%{transform:scale(1);opacity:1} }
+.pop-in{animation:popIn .35s cubic-bezier(.2,.9,.3,1.2) both}
+@keyframes confettiFall { 0%{transform:translateY(-20px) rotate(0);opacity:1} 100%{transform:translateY(420px) rotate(720deg);opacity:0} }
+.confetti{position:absolute;top:0;width:8px;height:12px;border-radius:2px;animation:confettiFall 2.2s ease-in forwards}
+@keyframes pulseRing { 0%{box-shadow:0 0 0 0 rgba(251,191,36,.55)} 100%{box-shadow:0 0 0 16px rgba(251,191,36,0)} }
+.pulse-ring{animation:pulseRing 1.6s ease-out infinite}
+@media (prefers-reduced-motion:reduce){ *{animation-duration:.001s!important;animation-iteration-count:1!important} }

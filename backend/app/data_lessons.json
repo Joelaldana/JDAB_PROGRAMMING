@@ -1,0 +1,1720 @@
+{
+ "html_c1_l1": {
+  "module": "html",
+  "xp": 50,
+  "coins": 25,
+  "main": [
+   [
+    "<!doctype html>"
+   ],
+   [
+    "<html>",
+    "<body>",
+    "</body>",
+    "</html>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<title>",
+    "</title>"
+   ],
+   "coins": 25
+  }
+ },
+ "html_c1_l2": {
+  "module": "html",
+  "xp": 50,
+  "coins": 25,
+  "main": [
+   [
+    "<h1>",
+    "</h1>"
+   ],
+   [
+    "<h2>",
+    "</h2>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<h3>",
+    "</h3>"
+   ],
+   "coins": 30
+  }
+ },
+ "html_c1_l3": {
+  "module": "html",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "<p>",
+    "</p>"
+   ],
+   [
+    "</p>",
+    "<p>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<p>",
+    "</p>"
+   ],
+   "coins": 35
+  }
+ },
+ "html_c1_l4": {
+  "module": "html",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "<strong>",
+    "</strong>"
+   ],
+   [
+    "<em>",
+    "</em>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<strong><em>",
+    "</em></strong>"
+   ],
+   "coins": 35
+  }
+ },
+ "html_boss_c1": {
+  "module": "html",
+  "xp": 120,
+  "coins": 60,
+  "main": [
+   [
+    "<!doctype html>",
+    "<html>",
+    "<body>",
+    "<h1>",
+    "<h2>",
+    "<p>",
+    "<strong>",
+    "</body>",
+    "</html>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<em>",
+    "</em>"
+   ],
+   "coins": 50
+  }
+ },
+ "html_c2_l6": {
+  "module": "html",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "<a href=",
+    "</a>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "target=\"_blank\""
+   ],
+   "coins": 30
+  }
+ },
+ "html_c2_l7": {
+  "module": "html",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "<img",
+    "src=",
+    "alt="
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "width="
+   ],
+   "coins": 30
+  }
+ },
+ "html_c2_l8": {
+  "module": "html",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "<ul>",
+    "<li>",
+    "</li>",
+    "</ul>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<ol>",
+    "</ol>"
+   ],
+   "coins": 35
+  }
+ },
+ "html_c2_l9": {
+  "module": "html",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "<div>",
+    "</div>",
+    "<h3>",
+    "<p>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "class="
+   ],
+   "coins": 35
+  }
+ },
+ "html_boss_c2": {
+  "module": "html",
+  "xp": 140,
+  "coins": 70,
+  "main": [
+   [
+    "<div",
+    "<img",
+    "<ul",
+    "<li>",
+    "<a href="
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<h2>",
+    "</h2>"
+   ],
+   "coins": 60
+  }
+ },
+ "html_c3_l11": {
+  "module": "html",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "<nav>",
+    "<a href=",
+    "</a>",
+    "</nav>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "</a>",
+    "</a>",
+    "</a>"
+   ],
+   "coins": 35
+  }
+ },
+ "html_c3_l12": {
+  "module": "html",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "<main>",
+    "<section>",
+    "</section>",
+    "</main>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<article>",
+    "</article>"
+   ],
+   "coins": 35
+  }
+ },
+ "html_c3_l13": {
+  "module": "html",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "<table>",
+    "<tr>",
+    "<th>",
+    "<td>",
+    "</table>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "</tr>",
+    "</tr>"
+   ],
+   "coins": 40
+  }
+ },
+ "html_c3_l14": {
+  "module": "html",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "<form>",
+    "<input",
+    "<button>",
+    "</button>",
+    "</form>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "placeholder="
+   ],
+   "coins": 40
+  }
+ },
+ "html_boss_c3": {
+  "module": "html",
+  "xp": 160,
+  "coins": 80,
+  "main": [
+   [
+    "<nav>",
+    "<table>",
+    "<form>",
+    "<button>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<main>",
+    "</main>"
+   ],
+   "coins": 70
+  }
+ },
+ "html_c4_l16": {
+  "module": "html",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "<label",
+    "for=",
+    "id=",
+    "required"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "type=\"email\""
+   ],
+   "coins": 40
+  }
+ },
+ "html_c4_l17": {
+  "module": "html",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "<select>",
+    "<option>",
+    "</select>",
+    "<textarea>",
+    "</textarea>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "</option>",
+    "</option>",
+    "</option>"
+   ],
+   "coins": 40
+  }
+ },
+ "html_c4_l18": {
+  "module": "html",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "<details>",
+    "<summary>",
+    "</summary>",
+    "</details>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<blockquote>",
+    "</blockquote>"
+   ],
+   "coins": 45
+  }
+ },
+ "html_c4_l19": {
+  "module": "html",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "<label",
+    "<input",
+    "<img",
+    "alt="
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<h1>",
+    "</h1>"
+   ],
+   "coins": 45
+  }
+ },
+ "html_boss_c4": {
+  "module": "html",
+  "xp": 180,
+  "coins": 90,
+  "main": [
+   [
+    "<form>",
+    "<select>",
+    "<textarea>",
+    "<label",
+    "required"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "type=\"submit\""
+   ],
+   "coins": 80
+  }
+ },
+ "html_c5_l21": {
+  "module": "html",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "class=",
+    "id="
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "class=",
+    "class="
+   ],
+   "coins": 45
+  }
+ },
+ "html_c5_l22": {
+  "module": "html",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "<audio",
+    "controls",
+    "<video"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "width="
+   ],
+   "coins": 45
+  }
+ },
+ "html_c5_l23": {
+  "module": "html",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "<meta",
+    "viewport",
+    "width=device-width"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "charset="
+   ],
+   "coins": 50
+  }
+ },
+ "html_c5_l24": {
+  "module": "html",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "<header>",
+    "<main>",
+    "<section>",
+    "<footer>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<h2>",
+    "</h2>"
+   ],
+   "coins": 50
+  }
+ },
+ "html_boss_c5": {
+  "module": "html",
+  "xp": 200,
+  "coins": 100,
+  "main": [
+   [
+    "<header>",
+    "<nav>",
+    "<main>",
+    "<audio",
+    "<form>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<button>",
+    "</button>"
+   ],
+   "coins": 90
+  }
+ },
+ "html_c6_l26": {
+  "module": "html",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "<header>",
+    "<nav>",
+    "<main>",
+    "<article>",
+    "<footer>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<section>",
+    "<section>"
+   ],
+   "coins": 50
+  }
+ },
+ "html_c6_l27": {
+  "module": "html",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "<a href=\"#",
+    "id="
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<a href=\"#",
+    "<a href=\"#"
+   ],
+   "coins": 50
+  }
+ },
+ "html_c6_l28": {
+  "module": "html",
+  "xp": 110,
+  "coins": 55,
+  "main": [
+   [
+    "<section>",
+    "<h2>",
+    "</h2>",
+    "<p>",
+    "</p>",
+    "</section>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<strong>",
+    "</strong>"
+   ],
+   "coins": 55
+  }
+ },
+ "html_c6_l29": {
+  "module": "html",
+  "xp": 120,
+  "coins": 60,
+  "main": [
+   [
+    "<!doctype html>",
+    "<html lang=",
+    "<head>",
+    "<title>",
+    "<body>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "viewport"
+   ],
+   "coins": 60
+  }
+ },
+ "html_boss_c6": {
+  "module": "html",
+  "xp": 300,
+  "coins": 150,
+  "main": [
+   [
+    "<!doctype html>",
+    "<html lang=",
+    "<header>",
+    "<nav>",
+    "<main>",
+    "<section>",
+    "<table>",
+    "<form>",
+    "<button>",
+    "<footer>"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "<audio",
+    "required"
+   ],
+   "coins": 150
+  }
+ },
+ "css_c1_l1": {
+  "module": "css",
+  "xp": 50,
+  "coins": 25,
+  "main": [
+   [
+    "color:",
+    ";"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "text-align: center"
+   ],
+   "coins": 25
+  }
+ },
+ "css_c1_l2": {
+  "module": "css",
+  "xp": 50,
+  "coins": 25,
+  "main": [
+   [
+    "background-color:",
+    "color:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "padding:"
+   ],
+   "coins": 25
+  }
+ },
+ "css_c1_l3": {
+  "module": "css",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "font-size:",
+    "font-weight:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "font-family:"
+   ],
+   "coins": 30
+  }
+ },
+ "css_c1_l4": {
+  "module": "css",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "text-align: center",
+    "line-height:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "uppercase"
+   ],
+   "coins": 30
+  }
+ },
+ "css_boss_c1": {
+  "module": "css",
+  "xp": 120,
+  "coins": 60,
+  "main": [
+   [
+    "color:",
+    "background-color:",
+    "font-size:",
+    "text-align:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "border-radius:"
+   ],
+   "coins": 60
+  }
+ },
+ "css_c2_l6": {
+  "module": "css",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "border-radius:",
+    "box-shadow:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "border:"
+   ],
+   "coins": 30
+  }
+ },
+ "css_c2_l7": {
+  "module": "css",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "margin:",
+    "padding:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "box-sizing:"
+   ],
+   "coins": 30
+  }
+ },
+ "css_c2_l8": {
+  "module": "css",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "width:",
+    "max-width:",
+    "box-sizing:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "height:"
+   ],
+   "coins": 35
+  }
+ },
+ "css_c2_l9": {
+  "module": "css",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "overflow:",
+    "display:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "position:"
+   ],
+   "coins": 35
+  }
+ },
+ "css_boss_c2": {
+  "module": "css",
+  "xp": 140,
+  "coins": 70,
+  "main": [
+   [
+    "border-radius:",
+    "box-shadow:",
+    "padding:",
+    "margin:",
+    "box-sizing:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "transition:"
+   ],
+   "coins": 70
+  }
+ },
+ "css_c3_l11": {
+  "module": "css",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "display: flex",
+    "gap:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "flex-direction:"
+   ],
+   "coins": 35
+  }
+ },
+ "css_c3_l12": {
+  "module": "css",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "display: flex",
+    "justify-content: center",
+    "align-items: center"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "height:"
+   ],
+   "coins": 35
+  }
+ },
+ "css_c3_l13": {
+  "module": "css",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "display: flex",
+    "justify-content: space-between",
+    "align-items: center"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "padding:"
+   ],
+   "coins": 40
+  }
+ },
+ "css_c3_l14": {
+  "module": "css",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "display: flex",
+    "flex:",
+    "gap:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "flex-wrap:"
+   ],
+   "coins": 40
+  }
+ },
+ "css_boss_c3": {
+  "module": "css",
+  "xp": 160,
+  "coins": 80,
+  "main": [
+   [
+    "display: flex",
+    "justify-content:",
+    "align-items:",
+    "gap:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "border-radius:"
+   ],
+   "coins": 80
+  }
+ },
+ "css_c4_l16": {
+  "module": "css",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "display: grid",
+    "grid-template-columns:",
+    "gap:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "grid-template-rows"
+   ],
+   "coins": 40
+  }
+ },
+ "css_c4_l17": {
+  "module": "css",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "display: grid",
+    "grid-template-columns: 2fr 1fr"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "gap:"
+   ],
+   "coins": 40
+  }
+ },
+ "css_c4_l18": {
+  "module": "css",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    ".escena",
+    "display: grid",
+    "grid-template-columns:"
+   ],
+   [
+    "grid-column: span 2"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "gap:"
+   ],
+   "coins": 40
+  }
+ },
+ "css_c4_l19": {
+  "module": "css",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "position: relative",
+    "top:"
+   ],
+   [
+    "transform: rotate("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "z-index:"
+   ],
+   "coins": 40
+  }
+ },
+ "css_boss_c4": {
+  "module": "css",
+  "xp": 180,
+  "coins": 90,
+  "main": [
+   [
+    "display: grid",
+    "grid-template-columns:",
+    "position: relative",
+    "transform:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "box-shadow:"
+   ],
+   "coins": 90
+  }
+ },
+ "css_c5_l21": {
+  "module": "css",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "@media",
+    "(max-width: 600px)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "flex-direction: column"
+   ],
+   "coins": 45
+  }
+ },
+ "css_c5_l22": {
+  "module": "css",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "width: 50%",
+    "max-width: 100%"
+   ],
+   [
+    "font-size: 1.2rem"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "vw"
+   ],
+   "coins": 45
+  }
+ },
+ "css_c5_l23": {
+  "module": "css",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    ".boton",
+    "background:"
+   ],
+   [
+    ".boton:hover"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "cursor: pointer"
+   ],
+   "coins": 45
+  }
+ },
+ "css_c5_l24": {
+  "module": "css",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "transition:",
+    "0.3s"
+   ],
+   [
+    ".boton:hover",
+    "transform: scale("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "ease-in-out"
+   ],
+   "coins": 45
+  }
+ },
+ "css_boss_c5": {
+  "module": "css",
+  "xp": 200,
+  "coins": 100,
+  "main": [
+   [
+    "@media",
+    ":hover",
+    "transition:",
+    "max-width: 100%"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "cursor: pointer"
+   ],
+   "coins": 100
+  }
+ },
+ "css_c6_l26": {
+  "module": "css",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "@keyframes pulso",
+    "from",
+    "to",
+    "opacity:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "transform:"
+   ],
+   "coins": 50
+  }
+ },
+ "css_c6_l27": {
+  "module": "css",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "@keyframes pulso"
+   ],
+   [
+    "animation: pulso",
+    "infinite"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "ease-in-out"
+   ],
+   "coins": 50
+  }
+ },
+ "css_c6_l28": {
+  "module": "css",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "@keyframes rebote",
+    "0%",
+    "50%",
+    "100%"
+   ],
+   [
+    "animation: rebote"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "animation-delay:"
+   ],
+   "coins": 50
+  }
+ },
+ "css_c6_l29": {
+  "module": "css",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "animation-delay:"
+   ],
+   [
+    "animation-direction: alternate"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "animation-iteration-count: infinite"
+   ],
+   "coins": 50
+  }
+ },
+ "css_boss_c6": {
+  "module": "css",
+  "xp": 300,
+  "coins": 150,
+  "main": [
+   [
+    "display: flex",
+    "display: grid",
+    "@media",
+    "@keyframes",
+    "animation:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "prefers-reduced-motion"
+   ],
+   "coins": 150
+  }
+ },
+ "py_c1_l1": {
+  "module": "python",
+  "xp": 50,
+  "coins": 25,
+  "main": [
+   [
+    "print(",
+    "robot en línea"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "#"
+   ],
+   "coins": 25
+  }
+ },
+ "py_c1_l2": {
+  "module": "python",
+  "xp": 50,
+  "coins": 25,
+  "main": [
+   [
+    "mision =",
+    "print(mision)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "nivel ="
+   ],
+   "coins": 25
+  }
+ },
+ "py_c1_l3": {
+  "module": "python",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "bateria = 100",
+    "activo = true"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "velocidad ="
+   ],
+   "coins": 30
+  }
+ },
+ "py_c1_l4": {
+  "module": "python",
+  "xp": 60,
+  "coins": 30,
+  "main": [
+   [
+    "inicial = 100",
+    "consumo = 30",
+    "restante ="
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(restante)"
+   ],
+   "coins": 30
+  }
+ },
+ "py_boss_c1": {
+  "module": "python",
+  "xp": 120,
+  "coins": 60,
+  "main": [
+   [
+    "bateria =",
+    "consumo =",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(f\""
+   ],
+   "coins": 60
+  }
+ },
+ "py_c2_l6": {
+  "module": "python",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "bateria = 50",
+    "if bateria > 20:",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "else:"
+   ],
+   "coins": 35
+  }
+ },
+ "py_c2_l7": {
+  "module": "python",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "codigo = \"arena7\"",
+    "if codigo == \"arena7\":",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "else:"
+   ],
+   "coins": 35
+  }
+ },
+ "py_c2_l8": {
+  "module": "python",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "bateria = 15",
+    "if bateria > 70:",
+    "elif bateria > 20:",
+    "else:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(f\""
+   ],
+   "coins": 35
+  }
+ },
+ "py_c2_l9": {
+  "module": "python",
+  "xp": 70,
+  "coins": 35,
+  "main": [
+   [
+    "llave = true",
+    "bateria = 40",
+    "if llave and bateria > 20:",
+    "print("
+   ],
+   [
+    "if not llave or bateria < 10:"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "else:"
+   ],
+   "coins": 35
+  }
+ },
+ "py_boss_c2": {
+  "module": "python",
+  "xp": 140,
+  "coins": 70,
+  "main": [
+   [
+    "if",
+    "and",
+    "else:",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "elif"
+   ],
+   "coins": 70
+  }
+ },
+ "py_c3_l11": {
+  "module": "python",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "for i in range(3):",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(i)"
+   ],
+   "coins": 40
+  }
+ },
+ "py_c3_l12": {
+  "module": "python",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "for paso in range(1, 6):",
+    "print(paso)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(\"fin\")"
+   ],
+   "coins": 40
+  }
+ },
+ "py_c3_l13": {
+  "module": "python",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "energia = 3",
+    "while energia > 0:",
+    "energia -= 1"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(energia)"
+   ],
+   "coins": 40
+  }
+ },
+ "py_c3_l14": {
+  "module": "python",
+  "xp": 80,
+  "coins": 40,
+  "main": [
+   [
+    "for paso in range(10):",
+    "if paso == 5:",
+    "break"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "continue"
+   ],
+   "coins": 40
+  }
+ },
+ "py_boss_c3": {
+  "module": "python",
+  "xp": 160,
+  "coins": 80,
+  "main": [
+   [
+    "for paso in range(",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "while"
+   ],
+   "coins": 80
+  }
+ },
+ "py_c4_l16": {
+  "module": "python",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "def saludar():",
+    "print(",
+    "saludar()"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "saludar()saludar()"
+   ],
+   "coins": 45
+  }
+ },
+ "py_c4_l17": {
+  "module": "python",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "def saludar(nombre):",
+    "print(",
+    "saludar(\""
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(f\""
+   ],
+   "coins": 45
+  }
+ },
+ "py_c4_l18": {
+  "module": "python",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "def doble(x):",
+    "return x * 2",
+    "print(doble("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "resultado = doble("
+   ],
+   "coins": 45
+  }
+ },
+ "py_c4_l19": {
+  "module": "python",
+  "xp": 90,
+  "coins": 45,
+  "main": [
+   [
+    "def sumar(a, b):",
+    "return a + b",
+    "print(sumar("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "def restar("
+   ],
+   "coins": 45
+  }
+ },
+ "py_boss_c4": {
+  "module": "python",
+  "xp": 180,
+  "coins": 90,
+  "main": [
+   [
+    "def",
+    "return",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    ","
+   ],
+   "coins": 90
+  }
+ },
+ "py_c5_l21": {
+  "module": "python",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "piezas = [",
+    "print(piezas)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "piezas[0]"
+   ],
+   "coins": 50
+  }
+ },
+ "py_c5_l22": {
+  "module": "python",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "piezas = [",
+    "piezas[0]",
+    "len(piezas)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "piezas[-1]"
+   ],
+   "coins": 50
+  }
+ },
+ "py_c5_l23": {
+  "module": "python",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "piezas = [",
+    "piezas.append(",
+    "print(piezas)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "piezas.remove("
+   ],
+   "coins": 50
+  }
+ },
+ "py_c5_l24": {
+  "module": "python",
+  "xp": 100,
+  "coins": 50,
+  "main": [
+   [
+    "robot = {",
+    "\"nombre\":",
+    "print(robot[\"nombre\"])"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "robot[\"energia\"] ="
+   ],
+   "coins": 50
+  }
+ },
+ "py_boss_c5": {
+  "module": "python",
+  "xp": 200,
+  "coins": 100,
+  "main": [
+   [
+    "[",
+    "]",
+    "{",
+    "}",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "append("
+   ],
+   "coins": 100
+  }
+ },
+ "py_c6_l26": {
+  "module": "python",
+  "xp": 110,
+  "coins": 55,
+  "main": [
+   [
+    "piezas = [",
+    "for pieza in piezas:",
+    "print(pieza)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "enumerate("
+   ],
+   "coins": 55
+  }
+ },
+ "py_c6_l27": {
+  "module": "python",
+  "xp": 110,
+  "coins": 55,
+  "main": [
+   [
+    "numeros = [",
+    "for n in numeros:",
+    "if n > 5:",
+    "print(n)"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "elif"
+   ],
+   "coins": 55
+  }
+ },
+ "py_c6_l28": {
+  "module": "python",
+  "xp": 110,
+  "coins": 55,
+  "main": [
+   [
+    "def sumar_lista(lista):",
+    "total = 0",
+    "for n in lista:",
+    "return total"
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "print(sumar_lista("
+   ],
+   "coins": 55
+  }
+ },
+ "py_c6_l29": {
+  "module": "python",
+  "xp": 110,
+  "coins": 55,
+  "main": [
+   [
+    "try:",
+    "except valueerror:",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "finally:"
+   ],
+   "coins": 55
+  }
+ },
+ "py_boss_c6": {
+  "module": "python",
+  "xp": 300,
+  "coins": 150,
+  "main": [
+   [
+    "def",
+    "for",
+    "if",
+    "return",
+    "print("
+   ]
+  ],
+  "bonus": {
+   "keywords": [
+    "try:",
+    "except"
+   ],
+   "coins": 150
+  }
+ }
+}

@@ -1,0 +1,13 @@
+# Secretos y datos locales (¡nunca los subas!)
+.env
+backend/.env
+*.db
+# Entornos y dependencias
+.venv/
+.venv-local/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+dist/
+.pytest_cache/

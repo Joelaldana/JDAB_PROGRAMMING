@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "categories": ["characters", "skins", "auras", "pets", "pet_colors"],
+  "items": [
+    {
+      "id": "skin_default",
+      "name": "Novato Explorador",
+      "category": "skins",
+      "rarity": "Común",
+      "price": 0,
+      "currency": "coins",
+      "asset_path": "/assets/sprites/skins/skin_default.webp",
+      "thumbnail_path": "/assets/thumbnails/skins/skin_default_thumb.webp",
+      "is_available": true,
+      "requires_level": 1
+    },
+    {
+      "id": "skin_vampire",
+      "name": "Conde Drácula",
+      "category": "skins",
+      "rarity": "Común",
+      "price": 2000,
+      "currency": "coins",
+      "asset_path": "/assets/sprites/skins/skin_vampire.webp",
+      "thumbnail_path": "/assets/thumbnails/skins/skin_vampire_thumb.webp",
+      "is_available": true,
+      "requires_level": 1
+    },
+    {
+      "id": "aura_fire",
+      "name": "Fire Flare",
+      "category": "auras",
+      "rarity": "Común",
+      "price": 10000,
+      "currency": "coins",
+      "asset_path": "/assets/sprites/auras/aura_fire.webp",
+      "thumbnail_path": "/assets/thumbnails/auras/aura_fire_thumb.webp",
+      "is_available": true,
+      "requires_level": 2
+    },
+    {
+      "id": "pet_blue",
+      "name": "Llama Glaciar",
+      "category": "pet_colors",
+      "rarity": "Extraño",
+      "price": 5000,
+      "currency": "coins",
+      "asset_path": "/assets/sprites/pets/pet_blue.webp",
+      "thumbnail_path": "/assets/thumbnails/pets/pet_blue_thumb.webp",
+      "is_available": true,
+      "requires_level": 1
+    }
+  ]
+}
