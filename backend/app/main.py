@@ -15,6 +15,17 @@ app = FastAPI(
     version=settings.VERSION,
     description="Plataforma gamificada de programación para estudiantes"
 )
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://jdabprogrammin.vercel.app"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Configuración CORS
 app.add_middleware(
