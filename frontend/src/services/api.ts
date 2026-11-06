@@ -1,5 +1,9 @@
-const host = window.location.hostname || "localhost";
-const BASE_URL = `http://${host}:8000/api/v1`;
+const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+
+// En tu PC usa localhost, en Vercel/Internet usa Render con /api/v1
+const BASE_URL = isLocal
+  ? `http://${window.location.hostname}:8000/api/v1`
+  : "https://jdab-backend.onrender.com/api/v1";
 
 export const getAuthToken = () => localStorage.getItem("jdab_token");
 
@@ -19,18 +23,10 @@ export const apiFetch = async (endpoint: string, options: RequestInit = {}) => {
     }
     return res.json();
   } catch (err: any) {
-    // Si falla por IP, intenta como respaldo directo a localhost:8000
-    if (host !== "localhost" && host !== "127.0.0.1") {
-      try {
-        const fallbackRes = await fetch(`http://localhost:8000/api/v1${endpoint}`, { ...options, headers });
-        if (fallbackRes.ok) return fallbackRes.json();
-      } catch {
-        // Ignorar y arrojar el error original
-      }
-    }
-
     if (err.message === "Failed to fetch") {
-      throw new Error(`No se pudo conectar a ${BASE_URL}. ¿Está Uvicorn corriendo con --host 0.0.0.0?`);
+      throw new Error(
+        "El servidor gratuito en la nube está despertando (tarda ~30 segundos la primera vez). Por favor espera un momento y vuelve a intentar."
+      );
     }
     throw err;
   }
